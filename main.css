@@ -1,0 +1,44 @@
+/*
+   # Dark Gray (top navigation): #272727
+   # Turquoise (accent) #48E5C2
+*/
+
+body {
+	font-size: 62.5%; /*responsive design*/
+	padding: 
+}
+
+/* HEADER STYLES */
+header {
+  display: block;
+  width: 100%;
+  position: fixed;
+}
+
+header ul {
+  background: #272727;
+  box-sizing: border-box;
+  color: white;
+  font: 600 1.5em 'Source Sans Pro', sans-serif;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0 7.5% 0 calc(7.5% + 5px);
+  text-transform: uppercase;
+}
+
+header li {
+  float: left
+}
+
+header li a {
+  color: white;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+header li a:hover {
+  color: #48E5C2
+}
+/*-------------------------*/
